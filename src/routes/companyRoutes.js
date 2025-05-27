@@ -10,8 +10,8 @@ const {
 } = require("../controllers/companyController");
 
 const multiUpload = upload.fields([
-  { name: "cameraFile", maxCount: 1 },
-  { name: "voiceNote", maxCount: 1 },
+  { name: "cameraFile", maxCount: 1 }
+  // { name: "voiceNote", maxCount: 1 },
 ]);
 
 router.post("/", multiUpload, createCompany);
