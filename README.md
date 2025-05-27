@@ -27,12 +27,11 @@ It includes support for authentication, file uploads, database interaction with 
 companyName, contactNumber, contactPerson, address, location, status ,callStatus ,date, remarks,cameraFile, voiceNote, voiceText,timestamps (createdAt, updatedAt)
 
 **Backend Functions**
-1. Create a new company	: Add a new company entry with optional camera and voice uploads
-2. Get all companies	  : GET	Retrieve all company records from the database
-3. Get a single company : id	GET	Fetch one company entry using its MongoDB _id
-4. Update a company     :id	PUT	Update a company's details
-5. Delete a company     :id	DELETE	Remove a company entry
-6. Filter by callStatus	:callStatus	GET	Get companies where callStatus is Pending or Done
-7. Search by name or location:GET	Search by company name, location, or person 
+1. **Create a new company**: Add a new company entry with optional camera and voice uploads
+2.**Get all companies**    : GETRetrieve all company records from the database
+3. **Get a single company** : id	GET	Fetch one company entry using its MongoDB _id
+4. **Update a company**    :id	PUT	Update a company's details
+5.**Delete a company**     :id	DELETE	Remove a company entry
+6.**Search by name or location**:GET	Search by company name, location, or person 
 
 
