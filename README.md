@@ -4,16 +4,25 @@ This is the backend server for My application, built with Node.js and Express.
 It includes support for authentication, file uploads, database interaction with MongoDB, and integration with Cloudinary for file storage.
 **Stack Name**
 1. **express**	A fast, minimalist web framework for Node.js.
-2.  Used to build REST APIs and handle routing, requests, and responses.
+   Used to build REST APIs and handle routing, requests, and responses.
+   
 2.**mongoose**	An ODM (Object Data Modeling) library for MongoDB and Node.js.
     It simplifies working with MongoDB by providing schema-based solutions.
+    
 3.**dotenv** Loads environment variables from a .env file into process.env, helping you manage configuration securely.
+
 4.**bcryptjs** Used to hash passwords before storing them in the database and to compare hashed passwords during login.
+
 5.**jsonwebtoken** Used to generate and verify JWT (JSON Web Tokens) for secure user authentication and authorization.
+
 6.**body-parser**	Middleware that parses incoming request bodies (like JSON or URL-encoded data) and makes them accessible via req.body.
+
 7.**cookie-parser**	Parses cookies attached to client requests, allowing you to read, write, and manage cookies in Express apps.
+
 8.**cors**	Enables Cross-Origin Resource Sharing, allowing frontend apps on different domains to make API requests to your backend.
+
 9.**cloudinary**	A service and library for uploading and managing media files (like images and videos) in the cloud.
+
 10.**multer**	Middleware for handling multipart/form-data, primarily used for uploading files (e.g., images, documents) from forms.
 
 
